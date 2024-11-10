@@ -1,11 +1,42 @@
-# Matplotlib and pyplot
+# Web Mining and Applied NLP (44-620)
 
-Complete the tasks in the Python Notebook in this repository.
-To be submitted for credit, all changes must be committed and pushed to this repository (do not create your own repository unless instructed to on the course website).
+## Matplotlib and pyplot
+##  Objective: Sorting Algorithms Execution Time Comparison
 
-## Rubric
+##### Student Name:Tesfamariam G.
+GitHub project link: https://github.com/Tesfamariam100/pyplot_m3
+##### Date: Nov. 10, 2024
 
-Each question is worth two points: 
 
-* Data plotted as described by the question (1 pt)
-* Plot contains required elements (title, axis labels, axis titles, legend if required)
+This project compares the execution times of two sorting algorithms: **Insertion Sort** and **Merge Sort**, based on different list sizes.
+
+### Key Features:
+- **Algorithms Compared**:
+  - Insertion Sort
+  - Merge Sort
+- **Plot Types**:
+  - Line plot with execution times on the y-axis and list sizes on the x-axis.
+  - Scatter plot for visual comparison.
+- **Visualization**:
+  - Both algorithms' times are plotted on the same graph with distinct colors and markers.
+  - Includes a legend to differentiate between the algorithms.
+
+### Usage:
+1. **Data**:
+   - `sizes`: List sizes used for testing the sorting algorithms.
+   - `insertion_sort_times`: Execution time for Insertion Sort.
+   - `merge_sort_times`: Execution time for Merge Sort.
+
+2. **Plot**:
+   - Displays sorting times for both algorithms on the same graph.
+   - Shows trends and performance comparisons across different list sizes.
+
+### Requirements:
+- matplotlib
+- python (any version >= 3.x)
+
+### Example:
+```python
+import matplotlib.pyplot as plt
+
+# Code to generate the plot as described above
